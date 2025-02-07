@@ -5,28 +5,40 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Stedelijk Gymnasium Leiden',
 		description: '',
-		location: 'Tunisia',
+		location: 'Netherlands, Leiden',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'SGL',
+		period: { from: new Date(2013, 8, 1), to: new Date(2020, 8, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'Highschool',
+		subjects: ['Mathematics', 'Physics', 'Chemistry', 'Biology', 'Greek', 'Dutch', 'English',  'Art', 'Music', 'Philosophy']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Bachleor of AI',
 		description: '',
-		location: 'USA',
+		location: 'Netherlands, Utrecht',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'University Utrecht',
+		period: { from: new Date(2020, 0, 1), to: new Date(2025, 8, 1)  },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'Uni',
+		subjects: ['C#', 'Python', 'Computer Architecture', 'Algorithms and Data structures', 'adaptive systems', 'computatinal langauge', 'models for language processing', 'computational intelligence', 'productsoftware']
+	},
+	{
+		degree: 'Exchange Taiwan',
+		description: '',
+		location: 'Taiwan, Taipei',
+		logo: Assets.Unknown,
+		name: '',
+		organization: 'University Utrecht',
+		period: { from: new Date(2023, 2, 1), to: new Date(2023, 8, 1)  },
+		shortDescription: '',
+		slug: 'Exchange',
+		subjects: ['Investment', 'Social media marketing', 'Universalism in East-Asia','Chinese', 'Exploring Taiwan (culture/nature)', ] 
 	}
 ];
 

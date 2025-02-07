@@ -1,6 +1,6 @@
-const firstName = 'Riadh';
-const lastName = 'Adrani';
-const suffix = 'Slick Portfolio With Svelte 5';
+const firstName = 'Jiaqi';
+const lastName = 'Chen';
+const suffix = 'WIP portfolio website with Svelte 5';
 
 const BaseData = {
 	firstName,
